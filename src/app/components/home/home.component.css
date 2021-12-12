@@ -1,0 +1,14 @@
+.tabs-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tabs {
+  padding: 1rem;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}

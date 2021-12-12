@@ -1,0 +1,22 @@
+<!-- <div class="tabs-wrapper">
+  <div class="tabs" routerLink="/home/add">Add</div>
+  <div class="tabs" routerLink="/home/show">Show</div>
+  <div class="tabs" routerLink="/home/details">Details</div>
+</div> -->
+<p>
+  <mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>Story</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button routerLink="/home/details" class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <!-- <mat-icon>favorite</mat-icon> -->
+      Details
+    </button>
+    <button mat-icon-button routerLink="/home/add" class="example-icon" aria-label="Example icon-button with share icon">
+      Add
+    </button>
+  </mat-toolbar>
+</p>
+<router-outlet></router-outlet>
